@@ -434,6 +434,7 @@ text-align: center;
 	border-bottom: 1px solid #bfbfbf;
 	width: 180px;
 	line-height: 60px;
+	text-align: center;
 }
 
 
@@ -473,4 +474,52 @@ text-align: center;
 .team_member-icons {
 	display: flex;
 	justify-content: space-around;
+}
+
+
+.blog {
+	background: #e4fdf9;
+}
+
+.blog_body {
+	padding: 100px 0 0 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.blog_body > * {
+	padding-bottom: 100px;
+}
+.blog-title {
+	margin-bottom: 15px;
+}
+.blog-item {
+	margin-top: 60px;
+}
+.imgblog {
+	margin-right: 15px;
+}
+.blog-text {
+	margin-right: 30px;
+}
+.blog-p {
+	margin-top: 30px;
+}
+.blog_items {
+	display: flex;
+	justify-content: space-between;
+	align-self: stretch;
+	flex-wrap: wrap;
+}
+
+footer {
+	background-color: #fff;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+h6 {
+	font-size: 20px;
+	font-weight: 700;
 }
