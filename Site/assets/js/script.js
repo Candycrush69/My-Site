@@ -31,7 +31,6 @@ if (iconMenu) {
   });
 }
 
-
 if (isMobile.any()) {
   document.body.classList.add('_touch');
   let menuArrows = document.querySelectorAll('menu_arrow');
