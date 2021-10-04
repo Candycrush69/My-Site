@@ -21,15 +21,26 @@ var isMobile = {
   }
 };
 
+
+
 const iconMenu = document.querySelector('.menu_icon');
 if (iconMenu) {
   const menuBody = document.querySelector('.menu_body');
+  const menuList = document.querySelector('.head-menu_list');
   iconMenu.addEventListener("click", function (e) {
     document.body.classList.toggle('_lock');
     iconMenu.classList.toggle('_active');
     menuBody.classList.toggle('_active');
+    menuLink.classList.toggle('_active');
+  })
+  menuList.addEventListener("click", function (e) {
+    document.body.classList.toggle('_lock');
+    iconMenu.classList.toggle('_active');
+    menuBody.classList.toggle('_active');
+    menuLink.classList.toggle('_active');
   });
 }
+
 
 if (isMobile.any()) {
   document.body.classList.add('_touch');
